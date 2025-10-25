@@ -101,10 +101,10 @@ class FeedbackCreate(BaseModel):
 MODULES_DATA = [
     {
         "id": "module-1",
-        "title": "The Human Hacking Mindset: How Social Engineering Works",
+        "title": "The Human Hacking Mindset: Intro & Psychology",
         "description": "Understanding the psychology behind social engineering attacks and how attackers exploit human behavior.",
         "order": 1,
-        "video_url": "https://www.youtube.com/embed/cuh5oKVyG4w",
+        "video_url": "https://www.youtube.com/embed/Cx_jscT-Qvo",
         "content": """---
 
 ## 📌 What is Social Engineering?
