@@ -92,8 +92,7 @@ const ModuleDetail = () => {
         toast.error(`You scored ${response.data.percentage}%. You need 70% to pass.`);
       }
     } catch (error) {
-      console.error("Error submitting assessment:", error);
-      toast.error("Failed to submit assessment");
+      console.error("Error submitting assessment:", error);      toast.error("Failed to submit assessment");
     } finally {
       setSubmitting(false);
     }

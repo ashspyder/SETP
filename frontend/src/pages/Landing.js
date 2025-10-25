@@ -142,7 +142,7 @@ const Landing = () => {
 
         {/* Footer */}
         <div className="text-center mt-12 text-gray-500 text-sm">
-          <p>University of Technology and Applied Sciences - Oman</p>
+          <p>University of Technology - Oman</p>
         </div>
       </div>
     </div>
