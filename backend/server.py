@@ -326,38 +326,200 @@ Actual Link: http://paypa1-security.tk/login
         "description": "Understanding vishing (voice phishing) and physical security threats like tailgating and pretexting.",
         "order": 3,
         "video_url": "https://www.youtube.com/embed/lc7scxvKQOo",
-        "content": """# Voice and Physical Social Engineering
+        "content": """---
 
-Attacks aren't limited to digital channels. This module explores:
+## 📞 Voice & Physical Threats Overview
 
-## Vishing (Voice Phishing):
-- Impersonation of IT support or authority figures
-- Creating urgency over phone calls
-- Caller ID spoofing techniques
-- Voice manipulation and deepfakes
+Social engineering isn't limited to emails - attackers use **voice calls** and **physical presence** to manipulate victims.
 
-## Physical Security Threats:
-- **Tailgating**: Following authorized personnel through secure doors
-- **Pretexting**: Creating false scenarios to gain access
-- **Shoulder Surfing**: Observing sensitive information entry
-- **Dumpster Diving**: Retrieving information from trash
+### This Module Covers:
+- 📞 Vishing (Voice Phishing)
+- 🚪 Physical Security Threats
+- 🎭 Social Engineering in Person
+- 🛡️ Prevention Strategies
 
-## Warning Signs:
-- Unsolicited calls requesting credentials
-- Pressure to act immediately
-- Requests to bypass normal procedures
-- Unknown persons in restricted areas
+---
 
-## Prevention Measures:
-- Challenge unfamiliar people politely
-- Use badge systems and access controls
-- Shred sensitive documents
-- Be aware of your surroundings
-- Verify caller identity through callback procedures
-- Never share passwords or credentials over phone
+## 📱 Vishing (Voice Phishing)
 
-## Scenario Training:
-Role-playing exercises to practice responding to vishing attempts.""",
+### What is Vishing?
+**Voice phishing** uses phone calls to trick victims into revealing sensitive information or performing actions.
+
+### Common Vishing Scenarios:
+
+**1. Fake IT Support**
+- "This is IT, we detected suspicious activity"
+- Requests password to "fix the problem"
+- Creates urgency and technical confusion
+
+**2. Impersonation of Authority**
+- "I'm calling from the bank's fraud department"
+- "This is the IRS regarding unpaid taxes"
+- Uses fear and authority to pressure victims
+
+**3. Prize/Lottery Scams**
+- "You've won a prize!"
+- Requires personal info or payment to claim
+- Too good to be true = probably is
+
+---
+
+## 🎭 Advanced Vishing Techniques
+
+### Caller ID Spoofing
+- Attackers fake the displayed phone number
+- Can appear as your bank, police, or company
+- **Never trust caller ID alone**
+
+### Voice Deepfakes
+- AI-generated voice impersonation
+- Can mimic executives or family members
+- Increasingly convincing technology
+
+### Pretexting Over Phone
+- Elaborate fake scenarios
+- Research-based personalization
+- Building false trust relationships
+
+---
+
+## 🚪 Physical Security Threats
+
+### 1. **Tailgating**
+**What:** Following authorized person through secure door
+
+**How it Works:**
+- Pretends to forget badge
+- Carries large items (hands full)
+- Asks politely to hold door
+- Appears to belong (dress code matching)
+
+**Defense:** Always ensure door closes behind you, politely ask for credentials
+
+---
+
+### 2. **Pretexting** (In-Person)
+**What:** Creating false scenario to gain physical access
+
+**Examples:**
+- Fake delivery person
+- "Repair technician"
+- "Auditor" or "Inspector"
+- Fire marshal
+
+**Defense:** Verify identity with reception/security before allowing access
+
+---
+
+### 3. **Shoulder Surfing**
+**What:** Observing sensitive information entry
+
+**Targets:**
+- ATM PIN codes
+- Password entry
+- Confidential documents
+- ID badges
+- Screen displays
+
+**Defense:** Be aware of surroundings, shield entry, privacy screens
+
+---
+
+### 4. **Dumpster Diving**
+**What:** Retrieving information from trash
+
+**What They Find:**
+- Printed documents
+- Post-it notes with passwords
+- Old hard drives
+- Company directories
+- Financial records
+
+**Defense:** Shred everything, secure disposal for electronics
+
+---
+
+## 🚨 Warning Signs
+
+### Over the Phone:
+⚠️ Unsolicited calls asking for credentials  
+⚠️ High-pressure tactics and urgency  
+⚠️ Requests to bypass normal procedures  
+⚠️ Won't provide callback number or verification  
+⚠️ Threatens consequences if you don't comply
+
+### In-Person:
+⚠️ Unknown persons in restricted areas  
+⚠️ No visible ID badge  
+⚠️ Unusual questions about security  
+⚠️ Taking photos of facilities  
+⚠️ Loitering near secure areas
+
+---
+
+## 🛡️ Prevention & Response
+
+### Phone Call Defense:
+
+**The Callback Method:**
+1. ❌ Don't provide info on unsolicited calls
+2. 📝 Note the caller's name and department
+3. 🔍 Look up official number independently
+4. ☎️ Call back using verified number
+5. ✅ Verify the request was legitimate
+
+**Golden Rules:**
+- ✅ Never share passwords over phone
+- ✅ Verify identity through official channels
+- ✅ It's okay to say "I'll call you back"
+- ✅ Report suspicious calls immediately
+
+---
+
+### Physical Security Defense:
+
+**Badge & Access Control:**
+- ✅ Always wear your badge visibly
+- ✅ Challenge unfamiliar people politely
+- ✅ Don't hold doors for others
+- ✅ Report tailgating incidents
+
+**Information Protection:**
+- ✅ Lock screen when away from desk
+- ✅ Clean desk policy
+- ✅ Shred sensitive documents
+- ✅ Be aware of shoulder surfers
+
+**The Polite Challenge:**
+> "Hi! I don't recognize you. Do you have your badge?"  
+> "Let me call reception to verify your appointment."
+
+---
+
+## 📊 Real-World Cases
+
+**Case 1: The Fake Janitor**
+- Attacker dressed as janitor
+- Accessed restricted areas for weeks
+- Installed keyloggers on computers
+- Cost: $1.2M in stolen data
+
+**Case 2: CEO Voice Clone**
+- AI-generated voice of CEO
+- Called CFO requesting urgent transfer
+- $243,000 stolen
+- Detected only after transaction complete
+
+---
+
+## 🎓 Key Takeaways
+
+1. **Trust but verify** - Even for voice/physical interactions
+2. **Callbacks are your friend** - Use official numbers
+3. **Challenge politely** - It's everyone's job to maintain security
+4. **Be aware** - Shoulder surfing happens everywhere
+5. **Shred everything** - Dumpster diving is real
+6. **Report suspicious behavior** - Better safe than sorry""",
         "duration": "35 mins"
     },
     {
