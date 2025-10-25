@@ -128,29 +128,26 @@ Social engineering attacks exploit predictable **core emotional triggers** to ma
 
 ---
 
-## 🎯 Common Attack Vectors
+#### 🎯**2\. Common Attack Vectors**
 
-| Attack Type | Description | Example |
-|------------|-------------|---------|
-| **Pretexting** | Creating a fabricated scenario | "I'm from IT, need your password" |
-| **Baiting** | Offering something enticing | Free USB drives with malware |
-| **Quid Pro Quo** | Promising benefits for information | "Survey" that steals data |
+Attackers use various delivery methods to deploy their psychological tactics:
+
+* **Phishing:** Fraudulent attempts, usually via **email**, to "fish" for sensitive information or click a malicious link (e.g., email from 'HR' about an 'Urgent Policy Update').  
+* **Smishing:** Text-message-based phishing (e.g., text about a 'package delivery failure').  
+* **Vishing:** Voice-based phishing over the **phone** (e.g., a call from 'Microsoft Support' about a virus).  
+* **Pretexting:** Creating a **fabricated story** ("pretext") to build trust and trick the victim (e.g., posing as a new employee needing to 'verify' a wire transfer).  
+* **Spear Phishing & Whaling:** Highly **targeted and personalized** versions of phishing—Spear Phishing targets a specific individual; Whaling targets high-level executives.
 
 ---
 
-## 🛡️ Defense Strategies
+#### 🛡️**3\. Actionable Defensive Habits (The 'Human Firewall')**
 
-### Individual Level:
-✅ **Verify, verify, verify** - Always confirm requests through separate channels  
-✅ **Question authority** - Even senior requests need verification  
-✅ **Slow down** - Urgency is a red flag  
-✅ **Protect information** - Don't overshare on social media
+Integrating these core habits dramatically reduces risk:
 
-### Organizational Level:
-✅ Security awareness training  
-✅ Clear verification protocols  
-✅ Incident reporting procedures  
-✅ Regular security audits
+✅ **Trust Your Instincts:** **Pause and scrutinize** any communication that feels unusual or unexpected, as this defends against Fear & Urgency tactics.  
+✅ **Verify Before You Act:** Never click on suspicious links or download unexpected attachments. **Independently confirm** legitimacy through a different communication channel (e.g., call the person directly).  
+✅ **Strengthen Your Credentials:** Use **complex, unique passphrases** and, most importantly, **enable Multi-Factor Authentication (MFA)** on every account that offers it.  
+✅ **Maintain Healthy Skepticism:** Be inherently suspicious of **unsolicited and urgent requests** for money, credentials, or sensitive data, especially those that exploit the Desire to be Helpful.
 
 ---
 
@@ -168,13 +165,13 @@ Social engineering attacks exploit predictable **core emotional triggers** to ma
 
 ---
 
-## 🎓 Key Takeaways
+### 🎓**Key Takeaways**
 
-1. Social engineering targets **human psychology**, not technology
-2. Attackers exploit **trust, authority, and urgency**
-3. **Anyone can be a target** - stay vigilant
-4. **Verification protocols** are your best defense
-5. **Report suspicious activity** immediately""",
+* Social Engineering targets people, not systems. It bypasses technical defenses.  
+* Be aware of attacks that leverage strong emotions like *urgency*, *fear*, and *curiosity*.  
+* **Always verify** unexpected requests and **think before you click**.  
+* Your vigilance is a vital part of the organization's cybersecurity defenses.
+* **Report suspicious activity** immediately""",
         "duration": "45 mins"
     },
     {
