@@ -528,46 +528,283 @@ Social engineering isn't limited to emails - attackers use **voice calls** and *
         "description": "Best practices for protecting sensitive data and proper procedures for reporting security incidents.",
         "order": 4,
         "video_url": "https://www.youtube.com/embed/inWWhr5tnEA",
-        "content": """# Data Protection & Incident Response
+        "content": """---
 
-Learn how to protect data and respond to security incidents effectively.
+## 🔐 Data Protection Fundamentals
 
-## Data Protection Principles:
-- **Least Privilege**: Access only what's necessary
-- **Data Classification**: Understanding sensitivity levels
-- **Encryption**: Protecting data at rest and in transit
-- **Secure Storage**: Physical and digital safeguards
-- **Clean Desk Policy**: Securing physical workspaces
+In this final module, you'll learn how to **protect sensitive information** and **respond to security incidents** effectively.
 
-## Password Security:
-- Use strong, unique passwords
-- Enable multi-factor authentication (MFA)
-- Use password managers
-- Never share credentials
-- Regular password updates for sensitive accounts
+### Module Objectives:
+- Understand data protection principles
+- Master password security
+- Learn incident reporting protocols
+- Know what to do when something goes wrong
 
-## Incident Reporting Protocol:
-1. **Recognize** the potential security incident
-2. **Stop** interacting with suspicious content
-3. **Document** what happened (screenshots, details)
-4. **Report** immediately to IT security team
-5. **Follow up** as instructed by security team
+---
 
-## What to Report:
-- Suspicious emails or messages
-- Lost or stolen devices
+## 📋 Core Data Protection Principles
+
+### 1. **Least Privilege Principle**
+> *"Access only what you need, when you need it"*
+
+**What it means:**
+- Users get minimum access required for their role
+- Reduces damage from compromised accounts
+- Regular access reviews and updates
+
+**Example:**
+- ❌ Marketing team doesn't need HR salary data
+- ✅ Marketing team accesses only customer contact info
+
+---
+
+### 2. **Data Classification**
+
+| Level | Description | Examples | Protection |
+|-------|-------------|----------|------------|
+| **Public** | No harm if disclosed | Marketing materials | Basic |
+| **Internal** | For employees only | Policies, procedures | Standard |
+| **Confidential** | Restricted access | Client data, contracts | Enhanced |
+| **Highly Confidential** | Extreme protection | Passwords, financials | Maximum |
+
+---
+
+### 3. **Encryption**
+
+**Data at Rest:** Files stored on devices
+- Full disk encryption
+- Encrypted USB drives
+- Secure file storage
+
+**Data in Transit:** Information being transmitted
+- HTTPS websites
+- VPN connections
+- Encrypted emails
+
+---
+
+### 4. **Clean Desk Policy**
+
+**Lock It or Lose It:**
+- 🔒 Lock screen when away (Windows + L)
+- 📄 No sensitive papers left out
+- 💾 Secure USB drives and devices
+- 🗑️ Shred confidential documents
+- 📱 Don't leave devices unattended
+
+---
+
+## 🔑 Password Security Mastery
+
+### The Perfect Password Strategy
+
+**❌ Bad Password Practices:**
+- Password123
+- Using same password everywhere
+- Sharing passwords
+- Writing on sticky notes
+- Never changing passwords
+
+**✅ Good Password Practices:**
+
+**1. Create Strong Passwords**
+```
+Bad:  password123
+Good: C0rrect-H0rse-Battery-Staple!
+```
+
+**2. Make Them Unique**
+- Different password for every account
+- Use password manager to remember them
+
+**3. Enable Multi-Factor Authentication (MFA)**
+- Something you know (password)
+- Something you have (phone, token)
+- Something you are (fingerprint)
+
+**4. Use Password Managers**
+- LastPass, 1Password, Bitwarden
+- Generate strong random passwords
+- Store securely, access from any device
+
+---
+
+## 📊 Password Strength Calculator
+
+| Password | Strength | Time to Crack |
+|----------|----------|---------------|
+| password | ⚠️ Weak | Instant |
+| Password1 | ⚠️ Weak | Instant |
+| P@ssw0rd! | 🔶 Fair | 3 hours |
+| MyDog2019! | 🟡 Medium | 2 weeks |
+| Correct-Horse-Battery | 🟢 Strong | 550 years |
+| C0rrect-H0rse-B@ttery-St@ple! | 🟢 Very Strong | 34,000 years |
+
+---
+
+## 🚨 Security Incident Response Protocol
+
+### The 5-Step Response Process
+
+**Step 1: RECOGNIZE 🔍**
+- Identify potential security incident
+- Trust your instincts
+- Look for warning signs
+
+**Step 2: STOP ✋**
+- Don't click further
+- Don't delete evidence
+- Disconnect from network if malware suspected
+- Don't try to "fix" it yourself
+
+**Step 3: DOCUMENT 📸**
+- Take screenshots
+- Note time and details
+- Save suspicious emails
+- Write down what happened
+
+**Step 4: REPORT 📞**
+- Contact IT Security immediately
+- Use hotline: [Your IT Hotline]
+- Email: security@university.edu
+- Don't wait - every minute counts
+
+**Step 5: FOLLOW UP ✅**
+- Follow security team instructions
+- Change passwords if instructed
+- Monitor accounts
+- Learn from the incident
+
+---
+
+## 📢 What Should You Report?
+
+### Always Report These:
+
+✅ **Email Security:**
+- Suspicious or phishing emails
+- Unexpected attachments
+- Requests for credentials
+- Spoofed sender addresses
+
+✅ **Account Security:**
 - Unauthorized access attempts
+- Suspicious login notifications
+- Unexplained account changes
+- Locked out of accounts
+
+✅ **Device Security:**
+- Lost or stolen devices
+- Malware infections
+- Unusual computer behavior
+- Unauthorized software installed
+
+✅ **Data Security:**
 - Accidental data disclosure
-- Any security policy violations
+- Unauthorized data access
+- Data breach discovery
+- Missing backup drives
 
-## Response Time Matters:
-Early reporting can prevent or minimize damage. Never delay reporting due to embarrassment or fear.
+✅ **Physical Security:**
+- Unescorted visitors
+- Lost access badges
+- Suspicious behavior
+- Tailgating attempts
 
-## University Resources:
-- IT Security Hotline
-- Security Incident Response Team (SIRT)
-- Regular security training sessions
-- Security awareness campaigns""",
+---
+
+## ⏰ Why Speed Matters
+
+### The Cost of Delay
+
+| Report Time | Average Cost | Data Compromised |
+|-------------|--------------|------------------|
+| Within 1 hour | $3,000 | Minimal |
+| Within 24 hours | $45,000 | Moderate |
+| After 1 week | $350,000 | Significant |
+| After 1 month | $1.2M | Extensive |
+
+**Remember:** Early reporting can prevent or minimize damage!
+
+---
+
+## 💪 Overcoming Reporting Barriers
+
+### Common Fears (and Why They're Wrong):
+
+**Fear:** *"I'll get in trouble"*  
+**Reality:** Reporting shows good security awareness. We learn from incidents.
+
+**Fear:** *"It's probably nothing"*  
+**Reality:** Let security experts decide. False alarms are okay!
+
+**Fear:** *"I'm too busy"*  
+**Reality:** A 5-minute report can prevent weeks of incident response.
+
+**Fear:** *"I'm embarrassed I clicked"*  
+**Reality:** Everyone makes mistakes. Your honesty protects others.
+
+---
+
+## 🎯 University Security Resources
+
+### Available Support:
+
+**📞 IT Security Hotline:**  
+Available 24/7 for urgent incidents
+
+**👥 Security Incident Response Team (SIRT):**  
+Dedicated team for handling incidents
+
+**📚 Security Training:**  
+Regular sessions and awareness programs
+
+**📧 Security Newsletter:**  
+Monthly tips and threat updates
+
+**🌐 Security Portal:**  
+Resources, guides, and FAQs
+
+---
+
+## ✅ Security Checklist
+
+### Daily Security Habits:
+
+- [ ] Lock screen when away
+- [ ] Check email sender before clicking
+- [ ] Use strong, unique passwords
+- [ ] Enable MFA on all accounts
+- [ ] Keep software updated
+- [ ] Be aware of surroundings
+- [ ] Challenge unfamiliar persons
+- [ ] Shred sensitive documents
+- [ ] Report suspicious activity
+- [ ] Practice clean desk policy
+
+---
+
+## 🎓 Final Key Takeaways
+
+1. **Least Privilege** - Access only what you need
+2. **Strong Passwords + MFA** - Your first line of defense
+3. **Report Immediately** - Speed saves money and data
+4. **No Shame in Reporting** - Everyone makes mistakes
+5. **Security is Everyone's Job** - Be vigilant, stay informed
+
+---
+
+## 🎉 Congratulations!
+
+You've completed all four modules of the Social Engineering training program. You now have the knowledge to:
+
+✅ Recognize social engineering tactics  
+✅ Identify phishing and vishing attempts  
+✅ Protect physical and digital assets  
+✅ Respond appropriately to incidents  
+✅ Be a security champion in your organization
+
+**Stay vigilant, stay safe!** 🛡️""",
         "duration": "30 mins"
     }
 ]
