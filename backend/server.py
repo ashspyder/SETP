@@ -105,26 +105,87 @@ MODULES_DATA = [
         "description": "Understanding the psychology behind social engineering attacks and how attackers exploit human behavior.",
         "order": 1,
         "video_url": "https://www.youtube.com/embed/cuh5oKVyG4w",
-        "content": """# **Social Engineering (Human Weakness in Cyber Security)**
+        "content": """---
 
-Social engineering is the art of manipulating people into divulging confidential information or performing actions that compromise security. This module explores:
+## 📌 What is Social Engineering?
 
-## Key Topics:
-- **Psychology of Trust**: How attackers build rapport and trust
-- **Cognitive Biases**: Exploitation of human decision-making flaws
-- **Authority & Urgency**: Creating pressure to bypass critical thinking
-- **Information Gathering**: OSINT and reconnaissance techniques
+**Social engineering** is the psychological manipulation of people to trick them into:
+- Divulging confidential information
+- Performing actions that compromise security
+- Bypassing normal security procedures
 
-## Real-World Examples:
-- Kevin Mitnick's famous social engineering attacks
-- Recent corporate breaches through human manipulation
-- Case studies of successful and failed attempts
+> *"Humans are often the weakest link in cybersecurity"*
 
-## Protection Strategies:
-- Verify requests through separate channels
-- Question unusual requests, even from authority figures
-- Implement verification protocols
-- Foster a security-aware culture""",
+---
+
+## 🧠 The Psychology Behind Attacks
+
+### How Attackers Exploit Human Nature:
+
+**1. Trust Building**
+- Creating false sense of familiarity
+- Impersonating authority figures
+- Using emotional manipulation
+
+**2. Cognitive Biases**
+- Authority bias (following orders without question)
+- Urgency bias (pressure to act quickly)
+- Scarcity principle (fear of missing out)
+
+**3. Information Gathering (OSINT)**
+- Social media reconnaissance
+- Public records research
+- Building detailed target profiles
+
+---
+
+## 🎯 Common Attack Vectors
+
+| Attack Type | Description | Example |
+|------------|-------------|---------|
+| **Pretexting** | Creating a fabricated scenario | "I'm from IT, need your password" |
+| **Baiting** | Offering something enticing | Free USB drives with malware |
+| **Quid Pro Quo** | Promising benefits for information | "Survey" that steals data |
+
+---
+
+## 🛡️ Defense Strategies
+
+### Individual Level:
+✅ **Verify, verify, verify** - Always confirm requests through separate channels  
+✅ **Question authority** - Even senior requests need verification  
+✅ **Slow down** - Urgency is a red flag  
+✅ **Protect information** - Don't overshare on social media
+
+### Organizational Level:
+✅ Security awareness training  
+✅ Clear verification protocols  
+✅ Incident reporting procedures  
+✅ Regular security audits
+
+---
+
+## 📊 Real-World Impact
+
+**Famous Cases:**
+- Kevin Mitnick: Master social engineer who breached major corporations
+- Target Breach (2013): 40M+ credit cards stolen via HVAC vendor
+- Twitter Hack (2020): High-profile accounts compromised via employee manipulation
+
+**Statistics:**
+- 98% of cyber attacks rely on social engineering
+- Average cost of breach: $4.24 million
+- Human error causes 95% of security incidents
+
+---
+
+## 🎓 Key Takeaways
+
+1. Social engineering targets **human psychology**, not technology
+2. Attackers exploit **trust, authority, and urgency**
+3. **Anyone can be a target** - stay vigilant
+4. **Verification protocols** are your best defense
+5. **Report suspicious activity** immediately""",
         "duration": "45 mins"
     },
     {
