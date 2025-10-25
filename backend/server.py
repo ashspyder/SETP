@@ -105,7 +105,7 @@ MODULES_DATA = [
         "description": "Understanding the psychology behind social engineering attacks and how attackers exploit human behavior.",
         "order": 1,
         "video_url": "https://www.youtube.com/embed/cuh5oKVyG4w",
-        "content": """# Introduction to Social Engineering
+        "content": """# **Social Engineering (Human Weakness in Cyber Security)**
 
 Social engineering is the art of manipulating people into divulging confidential information or performing actions that compromise security. This module explores:
 
