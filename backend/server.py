@@ -101,7 +101,7 @@ class FeedbackCreate(BaseModel):
 MODULES_DATA = [
     {
         "id": "module-1",
-        "title": "The Human Hacking Mindset: Intro & Psychology",
+        "title": "Social Engineering Awareness: Your First Line of Defense",
         "description": "Understanding the psychology behind social engineering attacks and how attackers exploit human behavior.",
         "order": 1,
         "video_url": "https://www.youtube.com/embed/Cx_jscT-Qvo",
@@ -118,24 +118,13 @@ MODULES_DATA = [
 
 ---
 
-## 🧠 The Psychology Behind Attacks
+#### 🧠**1\. The Psychology of Deception**
 
-### How Attackers Exploit Human Nature:
+Social engineering attacks exploit predictable **core emotional triggers** to make victims bypass rational judgment:
 
-**1. Trust Building**
-- Creating false sense of familiarity
-- Impersonating authority figures
-- Using emotional manipulation
-
-**2. Cognitive Biases**
-- Authority bias (following orders without question)
-- Urgency bias (pressure to act quickly)
-- Scarcity principle (fear of missing out)
-
-**3. Information Gathering (OSINT)**
-- Social media reconnaissance
-- Public records research
-- Building detailed target profiles
+* **Curiosity:** Used to provoke clicks (e.g., enticing, unusual offers like a "lifetime supply of pizza").  
+* **Fear & Urgency (FOMO):** Used to compel immediate action before thinking (e.g., "limited time offer" or urgent security alerts).  
+* **Desire to be Helpful:** Exploited by impersonating colleagues or managers with "urgent" requests.
 
 ---
 
