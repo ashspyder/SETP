@@ -194,33 +194,130 @@ MODULES_DATA = [
         "description": "Learn to identify and defend against phishing attacks, spear phishing, and email-based social engineering.",
         "order": 2,
         "video_url": "https://www.youtube.com/embed/PWVN3Rq4gzw",
-        "content": """# Email-Based Attacks
+        "content": """---
 
-Phishing remains one of the most effective attack vectors. This module covers:
+## 📧 Understanding Phishing Attacks
 
-## Phishing Techniques:
-- **Generic Phishing**: Mass emails targeting many users
-- **Spear Phishing**: Targeted attacks on specific individuals
-- **Whaling**: Attacks targeting senior executives
-- **Clone Phishing**: Duplicating legitimate emails with malicious links
+**Phishing** is the fraudulent practice of sending emails pretending to be from reputable companies to steal sensitive information.
 
-## Red Flags to Watch For:
-- Suspicious sender addresses
-- Urgent or threatening language
-- Requests for sensitive information
-- Unexpected attachments or links
-- Grammar and spelling errors
-- Mismatched URLs and display text
+### Why Phishing Works:
+- ✉️ Emails appear legitimate
+- 🎭 Uses social engineering tactics
+- ⚡ Creates sense of urgency
+- 🎣 Exploits human trust
 
-## Defense Mechanisms:
-- Email authentication (SPF, DKIM, DMARC)
-- Hover before clicking links
-- Verify sender identity through separate channels
-- Use multi-factor authentication
-- Report suspicious emails to IT security
+---
 
-## Practical Exercise:
-Analyze sample phishing emails and identify warning signs.""",
+## 🎯 Types of Phishing
+
+### 1. **Generic Phishing** (Mass Attacks)
+- Sent to thousands of users
+- Generic messages
+- Low success rate, high volume
+- Example: "Your account will be closed!"
+
+### 2. **Spear Phishing** (Targeted Attacks)
+- Personalized for specific individuals
+- Research-based approach
+- Higher success rate
+- Example: Email mentioning your recent purchase
+
+### 3. **Whaling** (Executive Targeting)
+- Targets C-level executives
+- High-value information sought
+- Often impersonates board members
+- Example: "CEO requesting urgent wire transfer"
+
+### 4. **Clone Phishing**
+- Duplicates legitimate email
+- Replaces links with malicious ones
+- Appears from trusted source
+- Example: "Resending invoice with updated link"
+
+---
+
+## 🚨 Red Flags Checklist
+
+**Always Check For:**
+
+| Warning Sign | What to Look For |
+|-------------|------------------|
+| ❌ Sender Address | Slight misspellings (paypa1.com vs paypal.com) |
+| ❌ Generic Greeting | "Dear Customer" instead of your name |
+| ❌ Urgency/Threats | "Act now or account suspended!" |
+| ❌ Suspicious Links | Hover to reveal actual destination |
+| ❌ Attachments | Unexpected files (.exe, .zip) |
+| ❌ Grammar Errors | Poor spelling and grammar |
+| ❌ Information Requests | Asking for passwords, SSN, credit cards |
+
+---
+
+## 🔍 Link Inspection Technique
+
+**Before Clicking ANY Link:**
+
+1. **Hover** your mouse over the link (don't click!)
+2. **Check** the actual URL in bottom-left corner
+3. **Verify** it matches the claimed destination
+4. **Look for** HTTPS and correct domain
+
+**Example:**
+```
+Display Text: "Click here to verify your PayPal account"
+Actual Link: http://paypa1-security.tk/login
+              ↑ Wrong domain!
+```
+
+---
+
+## 🛡️ Defense Mechanisms
+
+### Technical Defenses:
+✅ **Email Authentication** (SPF, DKIM, DMARC)  
+✅ **Spam Filters** and AI detection  
+✅ **Link Protection** services  
+✅ **Sandboxing** attachments
+
+### Human Defenses:
+✅ **Think before you click**  
+✅ **Verify through separate channel** (call the company)  
+✅ **Enable MFA** everywhere possible  
+✅ **Keep software updated**  
+✅ **Report suspicious emails** to IT
+
+---
+
+## 💡 What to Do If You Clicked
+
+**If you suspect you clicked a phishing link:**
+
+1. **🔌 Disconnect** from internet immediately
+2. **📸 Document** the email and website
+3. **🚨 Report** to IT security NOW
+4. **🔐 Change** passwords (from a different device)
+5. **👁️ Monitor** accounts for suspicious activity
+
+> **Remember:** It's better to report a false alarm than ignore a real threat!
+
+---
+
+## 📊 Phishing Statistics
+
+- **91%** of cyberattacks start with a phishing email
+- **1 in 99** emails is a phishing attempt
+- **30%** of phishing emails are opened
+- **12%** of users click malicious links
+- **Average cost** of successful phishing: $1.6M
+
+---
+
+## 🎓 Key Takeaways
+
+1. **Verify before you trust** - Even if it looks legitimate
+2. **Hover before you click** - Check where links really go
+3. **Slow down** - Urgency is a manipulation tactic
+4. **When in doubt, throw it out** - Delete suspicious emails
+5. **Report everything** - Help protect others""",
         "duration": "40 mins"
     },
     {
