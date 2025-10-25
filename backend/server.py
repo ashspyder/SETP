@@ -816,53 +816,72 @@ ASSESSMENTS_DATA = [
         "questions": [
             {
                 "id": "q1-1",
-                "question": "What is social engineering primarily based on?",
+                "question": "What is the primary goal of social engineering attacks?",
                 "type": "mcq",
                 "options": [
-                    "Exploiting software vulnerabilities",
-                    "Manipulating human psychology and behavior",
-                    "Breaking encryption algorithms",
-                    "Installing malware on systems"
+                    "To exploit software vulnerabilities",
+                    "To manipulate people into revealing sensitive information or performing actions",
+                    "To break encryption algorithms",
+                    "To install viruses on computer systems"
                 ],
-                "correct_answer": "Manipulating human psychology and behavior"
+                "correct_answer": "To manipulate people into revealing sensitive information or performing actions"
             },
             {
                 "id": "q1-2",
-                "question": "Social engineers often create a sense of urgency to bypass critical thinking.",
+                "question": "Humans are often considered the weakest link in cybersecurity.",
                 "type": "true_false",
                 "options": ["True", "False"],
                 "correct_answer": "True"
             },
             {
                 "id": "q1-3",
-                "question": "Which technique involves gathering information about targets from public sources?",
+                "question": "Which cognitive bias involves following orders from authority figures without question?",
                 "type": "mcq",
                 "options": [
-                    "Phishing",
-                    "OSINT (Open Source Intelligence)",
-                    "Malware installation",
-                    "SQL Injection"
+                    "Confirmation bias",
+                    "Authority bias",
+                    "Availability bias",
+                    "Anchoring bias"
                 ],
-                "correct_answer": "OSINT (Open Source Intelligence)"
+                "correct_answer": "Authority bias"
             },
             {
                 "id": "q1-4",
-                "question": "Building rapport and trust is not important in social engineering attacks.",
+                "question": "Pretexting is a social engineering technique where attackers create a fabricated scenario to gain trust.",
                 "type": "true_false",
                 "options": ["True", "False"],
-                "correct_answer": "False"
+                "correct_answer": "True"
             },
             {
                 "id": "q1-5",
-                "question": "What should you do when receiving an unusual request from someone claiming to be an authority figure?",
+                "question": "According to statistics, what percentage of cyber attacks rely on social engineering?",
                 "type": "mcq",
                 "options": [
-                    "Comply immediately to avoid trouble",
-                    "Ignore the request completely",
-                    "Verify through a separate, trusted channel",
-                    "Forward the request to colleagues"
+                    "25%",
+                    "50%",
+                    "75%",
+                    "98%"
                 ],
-                "correct_answer": "Verify through a separate, trusted channel"
+                "correct_answer": "98%"
+            },
+            {
+                "id": "q1-6",
+                "question": "What is the best defense strategy against social engineering attacks?",
+                "type": "mcq",
+                "options": [
+                    "Installing antivirus software",
+                    "Using strong passwords only",
+                    "Verifying requests through separate channels and staying vigilant",
+                    "Avoiding the internet completely"
+                ],
+                "correct_answer": "Verifying requests through separate channels and staying vigilant"
+            },
+            {
+                "id": "q1-7",
+                "question": "Urgency and time pressure are common tactics used by social engineers to prevent victims from thinking critically.",
+                "type": "true_false",
+                "options": ["True", "False"],
+                "correct_answer": "True"
             }
         ]
     },
